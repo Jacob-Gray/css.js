@@ -1,4 +1,4 @@
 # css.js
-An in browser CSS processor, that makes all your dreams come true :heart:
+An in browser CSS processor, that makes all of your dreams come true :heart:
 
 

@@ -1,0 +1,12 @@
+{
+  "name": "css.js",
+  "version": "1.0.0",
+  "description": "A CSS pre-processor that allows access to the DOM",
+  "main": "index.js",
+  "repository": "git@github.com:Jacob-Gray/css.js.git",
+  "author": "Jacob Gray <jacob@jacobgray.me>",
+  "license": "MIT",
+  "dependencies": {
+    "css": "^2.2.1"
+  }
+}

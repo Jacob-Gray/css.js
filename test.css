@@ -1,0 +1,38 @@
+//Javascript that is ran while compiling
+@{
+	console.log("testing");
+
+	//Variables can be declared anywhere, in JS syntax
+	var mygreen = rgb(171, 90, 31);
+}
+
+//Or in the regular CSS.js
+var myblack = #222021;
+
+//Regular CSS
+body{
+	color: mygreen;
+	background: myblack;
+}
+
+//events can be added with a psuedo class
+button:click{
+
+	//And parent elements can be accessed
+	< {
+		background:red;
+	}
+
+	//In fact, any element can be accessed, no matter where it appears in the DOM
+	document .triggered{
+		background:red;
+
+		//Properties can be set as well, just cause(I might remove this functionality)
+		innerHTML: this be the html now;
+
+		@={
+			//This JS will not be ran on compiled, it is added on page load
+			console.log(this.className);
+		}
+	}
+}
